@@ -1,0 +1,56 @@
+@import '../../../assets/styles/fonts';
+@import '../../../assets/styles/variables'; 
+
+.basic-form {
+    input,select, option {
+        display: block;
+        max-height: 48px;
+        min-width: 376px;
+        left: 288px;
+        top: 146px;
+        border-radius: 12px;
+        padding: 8px;
+        border: 2px solid rgba(38, 38, 38, 0.25);
+        margin-bottom: 16px;
+        font-size: 1em;
+        @media (max-height: $mobile-height) and (max-width: $mobile-width) {
+            min-width: 295px;
+        }
+    }
+
+    .basic-form label {
+        display: block;
+        height: 16px;
+        width: auto;
+        left: 288px;
+        top: 122px;
+        font-family: Lato;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 16px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: #565656;
+        margin-bottom: 8px;
+    }
+
+    .input-error{
+        height: 16px;
+        width: auto;
+        max-width: 376px;
+        left: 288px;
+        top: 122px;
+        border-radius: nullpx;
+        font-family: Lato;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 16px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: #d13131;
+        margin-bottom: 24px;
+    }
+}
+

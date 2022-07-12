@@ -1,0 +1,127 @@
+@import '../../../assets/styles/fonts';
+@import '../../../assets/styles/variables';
+
+.modal-dialog{
+    width: 295px;
+    height: 337px;
+    .modal-title {
+        font-size: 16px;
+        font-weight: 400;
+        font-family: MyriadPro;
+        color: #626060;
+        width: 100%;
+        text-align: center;
+        margin-top: 0px;
+    }
+
+    .modal-header  {
+            border: none;
+            font-family: MyriadPro;
+            .close {
+                position: absolute;
+                right: 10px;
+                border: 2px solid #0098D8;
+                padding: 0;
+                margin: 0;
+                height: 28px;
+                width: 28px;
+                border-radius: 30px;
+                top: 12px;
+                outline:none;
+                background: #0098D8;
+                
+                span {
+                    color: #fff;
+                    font-size: 26px;
+                    margin-top: -5px;
+                    margin-left: 5px;
+                    display: flex;
+                    font-weight: 900;
+                    text-shadow: none;
+                }
+            }
+    }
+
+    .modal-content {
+        font-family: MyriadPro;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        pointer-events: auto;
+        background-color: #fff;
+        background-clip: padding-box;
+        border: 1px solid rgba(0,0,0,.2);
+        border-radius: .3rem;
+        outline: 0;
+        height: 100%;
+        padding: 20px 15px;
+    }
+
+    .modal-body {
+        position: relative;
+        flex: 1 1 auto;
+        padding: 1rem;
+        justify-content: center;
+        display: flex;
+        flex-direction: column;
+        font-family: MyriadPro;
+    }
+
+    .modal-text {
+        display: flex;
+        justify-content: center;
+        font-family: MyriadPro;
+        text-align: center;
+        font-size: 16px;
+        color: #626060;
+        line-height: 20px;
+        margin-bottom: 25px;
+    }
+
+    .modal-accion {
+        display: flex;
+        justify-content: center;
+    }
+
+    .modal-footer {
+        border: none;
+        font-size: 11px;
+        color: #626060;
+        text-align: center;
+        justify-content: center;
+        font-family: MyriadPro;
+    }
+
+    .adherido {
+        background: #1DE589;
+        padding: 5px 8px;
+        border-radius: 6px;
+        color: #626060;
+        font-size: 12px;
+        font-family: MyriadPro;
+        width: 94px;
+        img {
+            width: 18px;
+            margin-bottom: 1px;
+        }
+    }
+
+    .no-adherido {
+        background: #D9D9D9;
+        padding: 5px 8px;
+        border-radius: 6px;
+        color: #F9F9FC;
+        font-size: 12px;
+        font-family: MyriadPro;
+        width: 94px;
+    }
+}
+
+@media (max-height: $mobile-height) and (max-width: $mobile-width) {
+    .modal-dialog {
+        width: 295px;
+        height: 337px;
+        margin: 10.75rem auto;
+    }
+}

@@ -1,0 +1,36 @@
+
+@import '../../../assets/styles/fonts';
+@import '../../../assets/styles/variables';
+
+.list-header{
+    display: flex;
+    width: 100%;
+    margin-top: 24px;
+    justify-content: space-between;
+    
+    h1{
+        font-family: Lato;
+        font-style: normal;
+        text-align: left;
+        font-weight: 900;
+        font-size: 36px;
+        line-height: 43px;
+        color: #6d07e6 !important;
+    }
+
+    input{
+        flex: 1 1;
+    }
+}
+
+@media (max-height: $mobile-height) and (max-width: $mobile-width) {
+    .list-header{
+        margin-left: 0;
+    }
+
+    a.create-button {
+        position: absolute;
+        bottom: 20%;
+        right: 5%;
+    }
+}

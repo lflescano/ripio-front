@@ -1,0 +1,19 @@
+@import '../../../assets/styles/fonts';
+@import '../../../assets/styles/variables';
+
+.error-messages{
+    height: 16px;
+    width: auto;
+    max-width: 376px;
+    left: 288px;
+    top: 122px;
+    font-family: Lato;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 16px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #d13131;
+    margin-bottom: 44px;
+}

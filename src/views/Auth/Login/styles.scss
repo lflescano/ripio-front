@@ -1,0 +1,14 @@
+@import '../../../assets/styles/fonts';
+@import '../../../assets/styles/variables';
+
+body .login.desktop-main-layout-container .right-layout-container .right-layout-content {
+    margin-left: 25%;
+    @media (max-height: $mobile-height) and (max-width: $mobile-width) {
+        margin-left: 0%;
+        align-items: center;
+    }
+}
+
+body .login.desktop-main-layout-container .list-header h1{
+    justify-content: center;
+}

@@ -1,0 +1,49 @@
+@import '../../../assets/styles/fonts';
+@import '../../../assets/styles/variables';
+
+.table-container {
+  .table{
+
+    th{
+      background: #6d07e6;
+      color: #fff;
+      padding: 16px;
+    }
+    
+    th:first-child {
+      border-top-left-radius: 20px;
+    }
+    th:last-child {
+      border-top-right-radius: 20px;
+    }
+  }
+
+  .table-footer {
+    display: flex;
+    justify-content: space-between;
+    button{
+      max-height: 54px;
+    }
+    .btn-warning{
+      background: none;
+      border: none;
+    }
+    .page-item.active .page-link
+    {
+      background-color: #6d07e6;
+      border-color: #6d07e6;
+      color: #fff;
+    }
+    .page-link{
+      height: 54px;
+      display: flex;
+      align-items: center;
+      color: #6d07e6;
+    }
+  }
+
+}
+
+@media (max-height: $mobile-height) and (max-width: $mobile-width) {
+  
+}
